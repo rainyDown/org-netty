@@ -7,10 +7,11 @@
     <groupId>org.example</groupId>
     <artifactId>netty-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
     <modules>
         <module>netty-demo</module>
         <module>client</module>
+        <module>other</module>
     </modules>
     <properties>
         <apk-parser.version>2.5.3</apk-parser.version>
@@ -36,6 +37,7 @@
         <swagger.version>1.5.3</swagger.version>
         <thumbnailator.version>0.4.8</thumbnailator.version>
         <xstream.version>1.4.11.1</xstream.version>
+        <commons.version>3.8.1</commons.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
@@ -49,6 +51,11 @@
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
             <version>${xstream.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.version}</version>
         </dependency>
     </dependencies>
 </project>

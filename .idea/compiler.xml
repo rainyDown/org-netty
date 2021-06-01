@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="netty-demo" />
-        <module name="netty-parent" />
+        <module name="other" />
       </profile>
     </annotationProcessing>
   </component>
